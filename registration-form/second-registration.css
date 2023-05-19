@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    background-image: url(nature.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: 20%  55%  25%;
+}
+.nav-bar-title{
+    /* background-color: white; */
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 106, 0);
+    transition: 0.5s ease-in-out;
+}
+
+.nav-bar-title:hover{
+    cursor: pointer;
+    font-size: 27px;
+    text-decoration: underline;
+}
+.nav-bar-option{
+    display: flex;
+    justify-content: center;
+    padding: 5px 7px;
+    /* background-color: blue; */
+}
+.nav-bar-option span{
+    margin-left: 30px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.nav-bar-option span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(255, 106, 0);
+}
+.nav-bar-search{
+    /* background-color: blue; */
+    padding: 3px;
+    align-items: center;
+}
+.nav-bar-search .search{
+    margin: 0px;
+    background-color: transparent;
+    border: rgb(255, 68, 0) 1px solid;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    outline: none;
+    padding: 5px;
+    height: 30px;
+    color: white;
+}
+
+.nav-bar-search .button{
+    margin: 0px;
+    background-color: rgb(255, 106, 0);
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 7px 10px;
+    height: 30px;
+    color: white;
+}
+
+.nav-bar-search .button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 106, 0, 0.9);
+}
+
+.body-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.body-subcontainer1{
+    padding: 100px 20px 50px 35px;
+    /* background-color: red; */
+}
+.body-subcontainer1 h1{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.body-subcontainer1 h1 span{
+    color:rgb(255, 106, 0);
+}
+
+.body-subcontainer1 h2{
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.body-subcontainer1 p{
+    margin: 10px;
+    width: 70%;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: white;
+}
+
+.body-subcontainer1 button{
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 150px;
+    background-color: rgb(255, 106, 0);
+}
+
+.body-subcontainer1 button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 106, 0, 0.9);
+}
+.login-form{
+    background-color: black;
+    margin-top: 80px;
+    margin-right: 500px;
+    border-radius: 7px;
+    padding: 25px;
+    width: 70%;
+}
+
+.login-form h1{
+    border-radius: 7px;
+    background-color: white;
+    padding: 3px 10px;
+    /* height: 30px; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-content: center;
+    color: rgb(255, 106, 0);
+}
+
+.login-form input{
+    margin-top: 10px;
+    outline:none;
+    border: none;
+    border-bottom: rgb(255, 106, 0) 1px solid;
+    background-color: transparent;
+    padding: 5px;
+    height: 25px;
+    color: white;
+    caret-color: rgb(255, 106, 0);
+    width: 100%;
+}
+
+.login-form button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    background-color:rgb(255, 106, 0);
+    padding: 5px 10px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.login-form button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 106, 0, 0.9);
+}
+
+.login-form span{
+    padding: 5px 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    display: block;
+}
+
+.login-form span a{
+    color:rgb(255, 106, 0);
+}
+
+.login-form span a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-form a{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
