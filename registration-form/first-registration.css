@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.registration-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.registration-item-subcontainer{
+    border-radius: 4px;
+    margin: 20px 50px;
+    padding: 5px 20px;
+    background-color: rgb(239, 238, 243);
+    width: 80%;
+}
+
+.registration-item-subcontainer h1{
+    margin: 0px;
+    padding: 20px 5px;
+}
+
+.registration-item-subcontainer span{
+    padding: 20px 6px;
+    font-size: 20px;
+}
+
+.registration-item-details-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.registration-item-details{
+    background-color: rgb(239, 238, 243);
+    padding: 10px 5px;
+}
+
+.registration-item-details label{
+    display: block;
+    padding: 5px 0px;
+    /* background-color: white; */
+}
+
+.registration-item-details input{
+    outline: none;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color:rgb(239, 238, 243);
+    padding: 10px;
+}
+
+.registration-item-details input:focus{
+    box-shadow: 0px 2px 10px;
+}
+
+button{
+    background-color: rgb(124, 17, 245);
+    border: none;
+    border-radius: 3px;
+    margin: 5px 6px;
+    padding: 7px 10px;
+    width: 160px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgba(124, 17, 245, 0.8);
+}
+.date{
+    width: 55%;
+}
