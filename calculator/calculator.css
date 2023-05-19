@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    background-color: rgb(56, 52, 52);
+    justify-content: center;
+    box-sizing: border-box;
+}
+.Main-container{
+    border-bottom: rgb(212, 158, 225) 5px solid;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: rgb(43, 38, 38);
+}
+.Calculator-result{
+    border-radius: 7px;
+    padding: 10px;
+}
+.Calculator-result span{
+    display: block;
+    border-radius: 4px;
+    padding: 3px 8px;
+    text-align: right;
+    font-size: 28px;
+    background-color: white;
+}
+
+/* Result css end */
+
+/* Number pad css start */
+.Calculator-number{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Number{
+    margin: 10px;
+    border-bottom: rgb(212, 158, 225) 5px solid;
+    border-radius: 7px;
+    background-color: rgba(36, 26, 26, 0.837);
+    width: 25px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+#zero{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 78%;
+    text-align: center;
+}
+#equal{
+    grid-row-start: span 3;
+    grid-row-end: span 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* number pad css end */
+
+/* footer css start */
+
+.footer{
+    padding: 10px;
+    text-align: right;
+    font-size: 15px;
+    color: white;
+}
